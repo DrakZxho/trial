@@ -9,12 +9,12 @@
             "es":"Una espada vieja.",
             "en":"An old sword."
         },
-        "atributes":{
-            "str":2,
+        "attributes":{
+            "str":3,
             "def":0,
             "mag":0,
             "res":0,
-            "dex":1,
+            "dex":0,
             "lck":0,
             "vit":0,
             "spr":0
@@ -35,12 +35,12 @@
             "es":"Pequeña daga con posibilidades de envenenar al objetivo.",
             "en":"Small dagger with posibilities of poison the objetive."
         },
-        "atributes":{
-            "str":3,
+        "attributes":{
+            "str":1,
             "def":0,
             "mag":1,
             "res":0,
-            "dex":2,
+            "dex":1,
             "lck":0,
             "vit":0,
             "spr":0
@@ -61,7 +61,7 @@
             "es":"Está roto, pero aún se puede usar.",
             "en":"It's broken, but it can still be used."
         },
-        "atributes":{
+        "attributes":{
             "str":1,
             "def":0,
             "mag":2,
@@ -87,7 +87,7 @@
             "es":"Un arco corto, perfecto para arqueros principiantes.",
             "en":"A short bow, it's perfect for a novice archer."
         },
-        "atributes":{
+        "attributes":{
             "str":1,
             "def":0,
             "mag":0,
