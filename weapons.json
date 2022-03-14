@@ -22,7 +22,8 @@
         "properties":{
             "es":null,
             "en":null
-        }
+        },
+        "type":"sword"
     },
     {
         "id":"w1",
@@ -47,7 +48,8 @@
         "properties":{
             "es":"Obtiene un 10% adicional de envenenar mediante ataque físico.",
             "en":"Obtains aditional 10% of poison throught physical attack."
-        }
+        },
+        "type":"dagger"
     },
     {
         "id":"w2",
@@ -72,7 +74,8 @@
         "properties":{
             "es":null,
             "en":null
-        }
+        },
+        "type":"staff"
     },
     {
         "id":"w3",
@@ -97,6 +100,7 @@
         "properties":{
             "es":null,
             "en":null
-        }
+        },
+        "type":"bow"
     }
 ]}
