@@ -2,8 +2,8 @@
     {
         "id":"w0",
         "name": {
-            "es":"espada desgastada",
-            "en":"worn out sword"
+            "es":"Espada desgastada",
+            "en":"Worn out sword"
         },
         "description":{
             "es":"Una espada vieja.",
@@ -27,8 +27,8 @@
     {
         "id":"w1",
         "name": {
-            "es":"aguja venenosa",
-            "en":"poisonous needle"
+            "es":"Aguja venenosa",
+            "en":"Poisonous needle"
         },
         "description":{
             "es":"Pequeña daga con posibilidades de envenenar al objetivo.",
@@ -52,8 +52,8 @@
     {
         "id":"w2",
         "name": {
-            "es":"báculo roto",
-            "en":"broken staff"
+            "es":"Báculo roto",
+            "en":"Broken staff"
         },
         "description":{
             "es":"Está roto, pero aún se puede usar.",
@@ -77,8 +77,8 @@
     {
         "id":"w3",
         "name": {
-            "es":"arco corto",
-            "en":"short bow"
+            "es":"Arco corto",
+            "en":"Short bow"
         },
         "description":{
             "es":"Un arco corto, perfecto para arqueros principiantes.",
