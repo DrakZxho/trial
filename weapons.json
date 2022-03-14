@@ -73,5 +73,30 @@
         "es":null,
         "en":null
     }
+},
+{
+    "id":"w3",
+    "name": {
+        "es":"arco corto",
+        "en":"short bow"
+    },
+    "description":{
+        "es":"Un arco corto, perfecto para arqueros principiantes.",
+        "en":"A short bow, it's perfect for a novice archer."
+    },
+    "atributes":{
+        "str":1,
+        "def":0,
+        "mag":0,
+        "res":0,
+        "dex":2,
+        "lck":0,
+        "vit":0,
+        "spr":0
+    },
+    "properties":{
+        "es":null,
+        "en":null
+    }
 }
 ]
