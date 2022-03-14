@@ -1,104 +1,102 @@
-{
-    "weapons":[
-        {
-            "id":"w0",
-            "name": {
-                "es":"espada desgastada",
-                "en":"worn out sword"
-            },
-            "description":{
-                "es":"Una espada vieja.",
-                "en":"An old sword."
-            },
-            "atributes":{
-                "str":2,
-                "def":0,
-                "mag":0,
-                "res":0,
-                "dex":1,
-                "lck":0,
-                "vit":0,
-                "spr":0
-            },
-            "properties":{
-                "es":null,
-                "en":null
-            }
+{"weapons":[
+    {
+        "id":"w0",
+        "name": {
+            "es":"espada desgastada",
+            "en":"worn out sword"
         },
-        {
-            "id":"w1",
-            "name": {
-                "es":"aguja venenosa",
-                "en":"poisonous needle"
-            },
-            "description":{
-                "es":"Pequeña daga con posibilidades de envenenar al objetivo.",
-                "en":"Small dagger with posibilities of poison the objetive."
-            },
-            "atributes":{
-                "str":3,
-                "def":0,
-                "mag":1,
-                "res":0,
-                "dex":2,
-                "lck":0,
-                "vit":0,
-                "spr":0
-            },
-            "properties":{
-                "es":"Obtiene un 10% adicional de envenenar mediante ataque físico.",
-                "en":"Obtains aditional 10% of poison throught physical attack."
-            }
+        "description":{
+            "es":"Una espada vieja.",
+            "en":"An old sword."
         },
-        {
-            "id":"w2",
-            "name": {
-                "es":"báculo roto",
-                "en":"broken staff"
-            },
-            "description":{
-                "es":"Está roto, pero aún se puede usar.",
-                "en":"It's broken, but it can still be used."
-            },
-            "atributes":{
-                "str":1,
-                "def":0,
-                "mag":2,
-                "res":0,
-                "dex":0,
-                "lck":0,
-                "vit":0,
-                "spr":0
-            },
-            "properties":{
-                "es":null,
-                "en":null
-            }
+        "atributes":{
+            "str":2,
+            "def":0,
+            "mag":0,
+            "res":0,
+            "dex":1,
+            "lck":0,
+            "vit":0,
+            "spr":0
         },
-        {
-            "id":"w3",
-            "name": {
-                "es":"arco corto",
-                "en":"short bow"
-            },
-            "description":{
-                "es":"Un arco corto, perfecto para arqueros principiantes.",
-                "en":"A short bow, it's perfect for a novice archer."
-            },
-            "atributes":{
-                "str":1,
-                "def":0,
-                "mag":0,
-                "res":0,
-                "dex":2,
-                "lck":0,
-                "vit":0,
-                "spr":0
-            },
-            "properties":{
-                "es":null,
-                "en":null
-            }
+        "properties":{
+            "es":null,
+            "en":null
         }
-    ]
-}
+    },
+    {
+        "id":"w1",
+        "name": {
+            "es":"aguja venenosa",
+            "en":"poisonous needle"
+        },
+        "description":{
+            "es":"Pequeña daga con posibilidades de envenenar al objetivo.",
+            "en":"Small dagger with posibilities of poison the objetive."
+        },
+        "atributes":{
+            "str":3,
+            "def":0,
+            "mag":1,
+            "res":0,
+            "dex":2,
+            "lck":0,
+            "vit":0,
+            "spr":0
+        },
+        "properties":{
+            "es":"Obtiene un 10% adicional de envenenar mediante ataque físico.",
+            "en":"Obtains aditional 10% of poison throught physical attack."
+        }
+    },
+    {
+        "id":"w2",
+        "name": {
+            "es":"báculo roto",
+            "en":"broken staff"
+        },
+        "description":{
+            "es":"Está roto, pero aún se puede usar.",
+            "en":"It's broken, but it can still be used."
+        },
+        "atributes":{
+            "str":1,
+            "def":0,
+            "mag":2,
+            "res":0,
+            "dex":0,
+            "lck":0,
+            "vit":0,
+            "spr":0
+        },
+        "properties":{
+            "es":null,
+            "en":null
+        }
+    },
+    {
+        "id":"w3",
+        "name": {
+            "es":"arco corto",
+            "en":"short bow"
+        },
+        "description":{
+            "es":"Un arco corto, perfecto para arqueros principiantes.",
+            "en":"A short bow, it's perfect for a novice archer."
+        },
+        "atributes":{
+            "str":1,
+            "def":0,
+            "mag":0,
+            "res":0,
+            "dex":2,
+            "lck":0,
+            "vit":0,
+            "spr":0
+        },
+        "properties":{
+            "es":null,
+            "en":null
+        }
+    }
+]}
