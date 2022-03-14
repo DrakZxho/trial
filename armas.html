@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <title>Armas</title>
+        <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script type="text/javascript">	
+            //"https://raw.githubusercontent.com/DrakZxho/trial/main/weapons.json"
+
+            let lang="es";
+            var i=0;
+            var dato;
+            var atrEN=new Array("VIT", "STR", "DEF", "DEX", "SPR", "LCK", "RES", "MAG");
+            var atrES=new Array("VIT", "FUE", "DEF", "DES", "ESP", "SUE", "RES", "MAG");
+            var atrLN;
+
+            function createChart(dato){
+
+                var sel = dato.weapons[i].attributes;
+
+                switch(lang){
+                    case "en":
+                        atrLN=atrEN;
+                        break;
+
+                        default:
+                    
+                        case "es":  
+                            atrLN=atrES;
+                            break;                  
+                }
+
+                var chart = new ej.charts.Chart({
+                    //Initializing Primary X Axis
+                    primaryXAxis: {
+                        valueType: "Category",
+                        labelPlacement: "OnTicks",
+                        interval: 1,
+                    },
+                    //Initializing Primary Y Axis
+                    primaryYAxis: {
+                        minimum: -0.3,
+                        maximum: 10,
+                        interval: 13,
+                        edgeLabelPlacement: "Shift",
+                    },
+                    //Initializing Chart Series
+                    series: [
+                        {
+                            type: "Radar",
+                            dataSource: [
+                                { x: atrLN[0]+" : "+sel.vit, y: sel.vit },
+                                { x: atrLN[1]+" : "+sel.str, y: sel.str },
+                                { x: atrLN[2]+" : "+sel.def, y: sel.def },
+                                { x: atrLN[3]+" : "+sel.dex, y: sel.dex },
+                                { x: atrLN[4]+" : "+sel.spr, y: sel.spr },
+                                { x: atrLN[5]+" : "+sel.lck, y: sel.lck },
+                                { x: atrLN[6]+" : "+sel.res, y: sel.res },
+                                { x: atrLN[7]+" : "+sel.mag, y: sel.mag }
+                            ],
+                            xName: "x",
+                            width: 2,
+                            yName: "y",
+                            drawType: 'Area',
+                            fill: '#04b9bf',
+                        }
+                    ],
+                });
+                chart.appendTo("#chart");
+            }
+            
+            function createResult(dato){
+                var sel = dato.weapons[i];
+                switch(lang){
+
+                    case "en":
+                        var name = sel.name.en;
+                        var desc = sel.description.en;
+                        var prop = sel.properties.en;
+                        $("#legend").text("Weapon No."+(i+1)+".");
+                        break;
+
+                    default:
+                    
+                    case "es":
+                        var name = sel.name.es;
+                        var desc = sel.description.es;
+                        var prop = sel.properties.es;
+                        $("#legend").text("Arma nº "+(i+1)+".");
+                        break;
+                }
+                //var name = sel.name.es;
+
+                var out="<h1 id='name'>"+name+"</h1>";
+                out+="<h3id='description'>"+desc+"</h3id=>";
+                if(prop!=null)out+="<i id='propierties'>"+prop+"</i>";
+                else out+="<br/>";
+
+                $("#result").html(out);
+
+                createChart(dato);
+            }
+
+
+
+            $(document).ready(function() {
+
+                $.ajax({
+                    url: 'https://drakzxho.github.io/trial/weapons.json',
+                    type: 'GET',
+                    headers: {
+                            
+                    },
+                    success: function(data) {
+                        console.log(data);
+                        createResult(data);
+                        dato=data;
+                    }
+                })
+
+                $("#prev").click(function(){
+                    if(i>0){
+                        i=i-1;
+                        createResult(dato);
+                    }
+                });
+                $("#next").click(function(){
+                    if(i<dato.weapons.length-1){
+                        i=i+1;
+                        createResult(dato);
+                    }
+                });
+                $("#es").click(function(){
+                    if(lang!="es"){
+                        lang="es";
+                        createResult(dato);
+                    }
+                });
+                $("#en").click(function(){
+                    if(lang!="en"){
+                        lang="en";
+                        createResult(dato);
+                    }
+                });
+
+
+
+
+
+
+            });
+
+            
+
+
+        </script>
+    </head>
+    <body>
+        <button id="es">&#127466;&#127462;</button>
+        <button id="en">&#127468;&#127463;</button>
+        <div id="result"></div>
+        <div id="chart"></div>
+        <i id="legend"></i><br/>
+        <button id="prev">&#128072;</button>
+        <button id="next">&#128073;</button>        
+    </body>
+</html>
