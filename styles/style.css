@@ -2,7 +2,7 @@
     display: inline-block;
 }
 #name{
-    display: inline-block;
+    display: list-item;
     font-family: 'Arial';
 }
 #description{
@@ -12,5 +12,5 @@
     display: list-item;
 }
 #chart{
-    height: 512px;
+    height: 256px;
 }
