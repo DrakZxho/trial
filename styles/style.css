@@ -1,11 +1,14 @@
 #top{
     top: 10px;
-}
-#bot{
+    position: relative;
     bottom: 10px;
 }
+#bot{
+    position: relative;
+    top: 10px;
+}
 #result{
-    float:right;
+    position: relative;
 }
 #typeIcon{
     display: inline-flex;
@@ -21,6 +24,7 @@
     display: block;
 }
 #chart{
-    float: left;
+    position: relative;
+    right: 512px;
     height: 256px;
 }
