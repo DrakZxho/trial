@@ -2,7 +2,7 @@
     display: inline-block;
 }
 #name{
-    display: list-item;
+    display: inline-flex;
     font-family: 'Arial';
 }
 #description{
