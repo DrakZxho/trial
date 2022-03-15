@@ -6,7 +6,7 @@
     font-family: 'Arial';
 }
 #description{
-    display: ;
+    display: list-item;
 }
 #properties{
     display: list-item;
