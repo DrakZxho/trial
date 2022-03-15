@@ -1,12 +1,15 @@
-#result{
+#typeIcon{
+    display: inline-block;
+}
+#name{
     display: inline-block;
     font-family: 'Arial';
 }
 #description{
-    display: table-row;
+    display: ;
 }
 #properties{
-    display: table-row;
+    display: list-item;
 }
 #chart{
     height: 512px;
