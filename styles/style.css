@@ -1,15 +1,15 @@
 #typeIcon{
-    display: inline-block;
+    display: inline-flex;
 }
 #name{
     display: inline-flex;
     font-family: 'Arial';
 }
 #description{
-    display: list-item;
+    display: block;
 }
 #properties{
-    display: list-item;
+    display: inline-block;
 }
 #chart{
     height: 256px;
