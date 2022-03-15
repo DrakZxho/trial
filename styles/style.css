@@ -1,10 +1,13 @@
-#typeIcon{
+#result{
     display: inline-block;
+    font-family: 'Arial';
 }
-#name{
-    display: inline-block;
-    font-family: 'Arial Narrow';
+#description{
+    display: table-row;
+}
+#properties{
+    display: table-row;
 }
 #chart{
-    height: 128px;
+    height: 512px;
 }
