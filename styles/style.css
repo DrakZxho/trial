@@ -9,6 +9,7 @@
 }
 #result{
     position: relative;
+    margin: 10px;
 }
 #name{
     display: inline-block;
@@ -16,6 +17,6 @@
 }
 #chart{
     position: relative;
-    right: 512px;
+    right: 1024px;
     height: 256px;
 }
