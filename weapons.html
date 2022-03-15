@@ -98,8 +98,8 @@
                 var out="<img id='typeIcon' src='graphics/weapon-type/"+type+".svg' alt='"+type+" icon' width='64' height='64'> ";
                 out+="<h1 id='name'>"+name+"</h1>";
                 out+="<h3id='description'>"+desc+"</h3id=>";
-                if(prop!=null)out+="<i id='properties'> "+prop+"</i>";
-                else out+="<br/>";
+                if(prop!=null)out+="<i id='properties'>"+prop+"</i>";
+                else out+="<i id='properties'> </i>";
 
                 $("#result").html(out);
 

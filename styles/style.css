@@ -2,15 +2,16 @@
     display: inline-flex;
 }
 #name{
-    display: inline-flex;
+    display: block;
     font-family: 'Arial';
 }
 #description{
     display: block;
 }
 #properties{
-    display: inline-block;
+    display: block;
 }
 #chart{
+    float: left;
     height: 256px;
 }
