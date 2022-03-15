@@ -1,0 +1,10 @@
+#typeIcon{
+    display: inline-block;
+}
+#name{
+    display: inline-block;
+    font-family: 'Arial Narrow';
+}
+#chart{
+    height: 128px;
+}
