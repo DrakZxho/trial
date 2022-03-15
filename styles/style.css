@@ -10,18 +10,9 @@
 #result{
     position: relative;
 }
-#typeIcon{
-    display: inline-flex;
-}
 #name{
-    display: block;
+    display: inline-block;
     font-family: 'Arial';
-}
-#description{
-    display: block;
-}
-#properties{
-    display: block;
 }
 #chart{
     position: relative;
