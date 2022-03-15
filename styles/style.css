@@ -1,3 +1,12 @@
+#top{
+    top: 10px;
+}
+#bot{
+    bottom: 10px;
+}
+#result{
+    float:right;
+}
 #typeIcon{
     display: inline-flex;
 }
