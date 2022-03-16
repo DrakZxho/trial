@@ -1,12 +1,6 @@
 html{
     background-color: rgb(70, 4, 61);
 }
-.container{
-    width:100%;
-    height:100%;
-    background-color: rgb(47, 0, 53);
-    border-radius: 4px;
-  }
 .cellphone-container{  
     width:512px;
     height: 1024px;
@@ -15,12 +9,8 @@ html{
     margin : auto auto auto auto;
     border-radius: 4px;
   }
-#top{
-    align-content: center;
-}
-#bot{
-    align-content: center;
-    bottom: 0px;
+#es , #en , #prev , #next{
+    margin : 5px auto 5px auto;
 }
 #name{
     display: inline-block;
