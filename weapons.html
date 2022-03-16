@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html onkeypress="keypressed(event);">
+<html onkeypress="keypressed(event);alert('1');">
     <head>
         <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
         <title>Armas</title>
@@ -107,10 +107,13 @@
             }
 
             function keypressed(e){
+                alert(2);
                 if(e.key==ArrowLeft){
+                    alert(3);
                     prev(dato);
                 }
                 if(e.key==ArrowRight){
+                    alert(4);
                     next(dato);
                 }
             }
