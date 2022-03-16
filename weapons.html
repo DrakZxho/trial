@@ -107,12 +107,11 @@
             }
 
             function keypressed(e){
-                alert(2);
-                if(e.key==ArrowLeft){
+                if(e.key=="ArrowLeft"){
                     alert(3);
                     prev(dato);
                 }
-                if(e.key==ArrowRight){
+                if(e.key=="ArrowRight"){
                     alert(4);
                     next(dato);
                 }
@@ -181,7 +180,7 @@
 
         </script>
     </head>
-    <body onkeydown="keypressed(event);alert(1);">
+    <body onkeydown="keypressed(event);">
         <div id="top" class="buttons">
             <button id="es">&#127466;&#127480;</button>
             <button id="en">&#127468;&#127463;</button>
