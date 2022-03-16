@@ -1,5 +1,5 @@
 html{
-    background-color: black;
+    background-color: rgb(70, 4, 61);
 }
 .container{
     width:100%;
@@ -10,16 +10,16 @@ html{
 .cellphone-container{  
     width:512px;
     height: 1024px;
-    background-color: wheat;
+    background-color: white;
     padding: 5px;
     margin : auto auto auto auto;
     border-radius: 4px;
   }
 #top{
-    margin : auto 5px auto 5px;
+    align-content: center;
 }
 #bot{
-    margin : 5px auto 5px auto;
+    align-content: center;
     bottom: 0px;
 }
 #name{
