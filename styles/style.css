@@ -1,34 +1,32 @@
+*{
+    background-color: black;
+}
 .container{
     width:100%;
     height:100%;
     background-color: rgb(47, 0, 53);
+    border-radius: 4px;
   }
   .cellphone-container{  
     width:512px;
     height: 1024px;
     background-color: wheat;
+    padding: 5px;
     margin : auto auto auto auto;
     border-radius: 4px;
   }
 #top{
-    top: 10px;
-    position: relative;
-    bottom: 10px;
+    margin : 5px auto 5px auto;
 }
 #bot{
-    position: relative;
-    top: 10px;
-}
-#result{
-    position: relative;
-    margin: 10px;
+    margin : 5px auto 5px auto;
 }
 #name{
     display: inline-block;
     font-family: 'Arial';
 }
 #chart{
-    position: relative;
+    margin : 5px auto 5px auto;
     width: 256px;
     height: 256px;
 }
