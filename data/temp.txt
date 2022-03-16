@@ -1,0 +1,26 @@
+"weapons":[{
+    "id":,
+    "name": {
+        "es":,
+        "en":
+    },
+    "description":{
+        "es":,
+        "en":
+    },
+    "attributes":{
+        "str":,
+        "def":,
+        "mag":,
+        "res":,
+        "dex":,
+        "lck":,
+        "vit":,
+        "spr":
+    },
+    "properties":{
+        "es":,
+        "en":
+    },
+    "type":
+}]
