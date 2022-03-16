@@ -1,9 +1,9 @@
 html{
     background-color: rgb(70, 4, 61);
 }
-.cellphone-container{  
+.pag{  
     width:512px;
-    height: 1024px;
+    height: fit-content;
     background-color: white;
     padding: 5px;
     margin : auto auto auto auto;
