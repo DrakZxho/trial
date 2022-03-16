@@ -1,13 +1,12 @@
 .container{
     width:100%;
     height:100%;
+    background-color: rgb(47, 0, 53);
   }
   .cellphone-container{  
-    width:375px;
-    height:650px;
-    background-color:#1e1b26;
-    margin : 60px auto 0 auto;
-    box-shadow:5px 5px 115px -14px black;
+    width:512px;
+    height:800px;
+    margin : auto auto auto auto;
     border-radius: 4px;
   }
 #top{
