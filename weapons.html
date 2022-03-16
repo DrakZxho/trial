@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html onkeypress="keypressed(event);">
     <head>
         <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
         <title>Armas</title>
@@ -106,6 +106,28 @@
                 createChart(dato);
             }
 
+            function keypressed(e){
+                if(e.key==ArrowLeft){
+
+                }
+                if(e.key==ArrowRight){
+                    
+                }
+            }
+
+            function next(dato){
+                if(i<dato.weapons.length-1){
+                    i=i+1;
+                    createResult(dato);
+                }
+            }
+
+            function prev(dato){
+                if(i>0){
+                    i=i-1;
+                    createResult(dato);
+                }
+            }
 
 
             $(document).ready(function() {
@@ -124,16 +146,10 @@
                 })
 
                 $("#prev").click(function(){
-                    if(i>0){
-                        i=i-1;
-                        createResult(dato);
-                    }
+                    prev(dato);
                 });
                 $("#next").click(function(){
-                    if(i<dato.weapons.length-1){
-                        i=i+1;
-                        createResult(dato);
-                    }
+                    next(dato);
                 });
                 $("#es").click(function(){
                     if(lang!="es"){
