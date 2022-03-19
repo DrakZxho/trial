@@ -22,5 +22,6 @@ html{
     height: 300px;
 }
 #legend{
-    left: 80%;
+    position: relative;
+    left: 85%;
 }
