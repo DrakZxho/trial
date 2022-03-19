@@ -93,13 +93,16 @@
                         $("#legend").text("Arma nº "+(i+1)+".");
                         break;
                 }
-                //var name = sel.name.es;
 
-                var out="<img id='typeIcon' src='https://drakzxho.github.io/trial/graphics/weapon-type/"+type+".svg' alt='"+type+" icon' width='64' height='64'> ";
-                out+="<h1 id='name'>"+name+"</h1>";
-                out+="<h3id='description'>"+desc+"</h3id=>";
+                var out="<table><tr>";
+                out+="<td><img id='typeIcon' src='https://drakzxho.github.io/trial/graphics/weapon-type/"+type+".svg' alt='"+type+" icon' width='64' height='64'></td>";
+                out+="<td><h1 id='name'>"+name+"</h1></td>";
+                out+="</tr><tr>";
+                out+="<td colspan=\"2\"><h3id='description'>"+desc+"</h3id=></td>";
+                out+="</tr><tr><td colspan=\"2\">";
                 if(prop!=null)out+="<i id='properties'>"+prop+"</i>";
                 else out+="<i id='properties'> </i>";
+                out+="</td></tr></table>";
 
                 $("#result").html(out);
 
