@@ -22,5 +22,5 @@ html{
     height: 300px;
 }
 #legend{
-    float: right;
+    right: 5px;
 }
