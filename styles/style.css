@@ -8,7 +8,7 @@ html{
     padding: 5px;
     margin : auto auto auto auto;
     border-radius: 4px;
-  }
+}
 .buttons{
     width: fit-content;
     margin : 5px auto 5px auto;
@@ -20,4 +20,7 @@ html{
 #chart{
     margin : 5px auto 5px auto;
     height: 300px;
+}
+#legend{
+    float: right;
 }
