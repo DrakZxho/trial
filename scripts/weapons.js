@@ -84,8 +84,8 @@ function createResult(dato){
     out+="<td colspan=\"2\"><h3id='description'>"+desc+"</h3id=></td>";
     out+="</tr><tr><td colspan=\"2\" rowspan=\"3\">";
     for(var index =0; index<prop.length; index++){
-        if(prop[index]!=null)out+="<i id='propertie'>"+prop[index]+"</i>";
-        else out+="<i id='propertie'>-</i>";
+        if(prop[index]!=null)out+="<i id='property'>"+prop[index]+"</i>";
+        else out+="<i id='property'>-</i>";
     }
     out+="</td></tr></table>";
 

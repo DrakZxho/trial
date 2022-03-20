@@ -13,11 +13,14 @@ html{
     width: fit-content;
     margin : 5px auto 5px auto;
 }
+.search{
+    float: right;
+}
 #name{
     display: inline-block;
     font-family: 'Arial';
 }
-#propertie{
+#property{
     display: list-item;
     list-style: none;
 }
