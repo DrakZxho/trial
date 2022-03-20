@@ -52,6 +52,11 @@
                 $("#searchbutton").click(function(){
                     searchWeapon($("#searchlist").val());
                 });
+                $("#searchlist").keydown(function(){
+                    if(event.key=="Enter"){
+                        searchWeapon($("#searchlist").val());
+                    }
+                });
 
             });
 
