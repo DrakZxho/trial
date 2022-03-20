@@ -41,7 +41,7 @@
         },
         "description":{
             "es":"Pequeña daga con posibilidades de envenenar al objetivo.",
-            "en":"Small dagger with posibilities of poison the objetive."
+            "en":"Small dagger with a chance to poison the objetive."
         },
         "attributes":{
             "str":1,
@@ -60,7 +60,7 @@
                 null
             ],
             "en":[
-                "Obtains aditional 10% of poison throught physical attack.",
+                "Gain an additional 10% to poison by physical attack.",
                 null,
                 null
             ]
@@ -75,7 +75,7 @@
         },
         "description":{
             "es":"Está roto, pero aún se puede usar.",
-            "en":"It's broken, but it can still be used."
+            "en":"It's broken, but still usable."
         },
         "attributes":{
             "str":1,
@@ -109,7 +109,7 @@
         },
         "description":{
             "es":"Un arco corto, perfecto para arqueros principiantes.",
-            "en":"A short bow, it's perfect for a novice archer."
+            "en":"A short bow, perfect for beginner archers."
         },
         "attributes":{
             "str":1,
