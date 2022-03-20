@@ -99,9 +99,11 @@
                 out+="<td><h1 id='name'>"+name+"</h1></td>";
                 out+="</tr><tr>";
                 out+="<td colspan=\"2\"><h3id='description'>"+desc+"</h3id=></td>";
-                out+="</tr><tr><td colspan=\"2\">";
-                if(prop!=null)out+="<i id='properties'>"+prop+"</i>";
-                else out+="<i id='properties'> </i>";
+                out+="</tr><tr><td colspan=\"2\" rowspan=\"3\">";
+                for(var index =0; index<prop.length; index++){
+                    if(prop[index]!=null)out+="<i id='propertie'>"+prop[index]+"</i>";
+                    else out+="<i id='propertie'>-</i>";
+                }
                 out+="</td></tr></table>";
 
                 $("#result").html(out);

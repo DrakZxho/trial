@@ -17,6 +17,9 @@ html{
     display: inline-block;
     font-family: 'Arial';
 }
+#propertie{
+    display: list-item;
+}
 #chart{
     margin : 5px auto 5px auto;
     height: 300px;

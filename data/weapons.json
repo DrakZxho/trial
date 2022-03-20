@@ -20,8 +20,16 @@
             "spr":0
         },
         "properties":{
-            "es":null,
-            "en":null
+            "es":[
+                null,
+                null,
+                null
+            ],
+            "en":[
+                null,
+                null,
+                null
+            ]
         },
         "type":"sword"
     },
@@ -46,8 +54,16 @@
             "spr":0
         },
         "properties":{
-            "es":"Obtiene un 10% adicional de envenenar mediante ataque físico.",
-            "en":"Obtains aditional 10% of poison throught physical attack."
+            "es":[
+                "Obtiene un 10% adicional de envenenar mediante ataque físico.",
+                null,
+                null
+            ],
+            "en":[
+                "Obtains aditional 10% of poison throught physical attack.",
+                null,
+                null
+            ]
         },
         "type":"dagger"
     },
@@ -72,8 +88,16 @@
             "spr":0
         },
         "properties":{
-            "es":null,
-            "en":null
+            "es":[
+                null,
+                null,
+                null
+            ],
+            "en":[
+                null,
+                null,
+                null
+            ]
         },
         "type":"staff"
     },
@@ -98,8 +122,16 @@
             "spr":0
         },
         "properties":{
-            "es":null,
-            "en":null
+            "es":[
+                null,
+                null,
+                null
+            ],
+            "en":[
+                null,
+                null,
+                null
+            ]
         },
         "type":"bow"
     }
