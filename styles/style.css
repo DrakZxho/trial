@@ -19,6 +19,7 @@ html{
 }
 #propertie{
     display: list-item;
+    list-style: none;
 }
 #chart{
     margin : 5px auto 5px auto;
