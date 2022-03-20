@@ -150,3 +150,42 @@ function changeToEN(dato){
     $("title").text("Weapons");
     fillDatalist(dato);
 }//changeToEN
+
+function searchWeapon(term) {
+
+    var pos;
+    var match=false;
+    var msgerr="";
+
+    switch(lang){
+        case "en":
+            msgerr="Sorry, but we couldn't find \""+term+"\".";
+            for(var index=0;index<dato.weapons.length;index++){
+                if(dato.weapons[index].name.en==term){
+                    pos=index;
+                    match=true;
+                }
+            }
+            break;
+
+        default:
+
+        case "es":
+            msgerr="Lo sentimos, pero no hemos podido encontrar \""+term+"\".";
+            for(var index=0;index<dato.weapons.length;index++){
+                if(dato.weapons[index].name.es==term){
+                    pos=index;
+                    match=true;
+                }
+            }
+            break;
+    }
+
+    if(match){
+        i=pos;
+        createResult(dato);
+    }else{
+        alert(msgerr);
+    }
+    
+}
