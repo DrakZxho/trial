@@ -134,6 +134,18 @@
                 }
             }
 
+            function changeToES(dato){
+                lang="es";
+                createResult(dato);
+                $("title").text("Armas");
+            }
+
+            function changeToEN(dato){
+                lang="en";
+                createResult(dato);
+                $("title").text("Weapons");
+            }
+            
 
             $(document).ready(function() {
 
@@ -158,23 +170,14 @@
                 });
                 $("#es").click(function(){
                     if(lang!="es"){
-                        lang="es";
-                        createResult(dato);
-                        $("title").text("Armas");
+                        changeToES(dato);
                     }
                 });
                 $("#en").click(function(){
                     if(lang!="en"){
-                        lang="en";
-                        createResult(dato);
-                        $("title").text("Weapons");
+                        changeToEN(dato);
                     }
                 });
-
-
-
-
-
 
             });
 
