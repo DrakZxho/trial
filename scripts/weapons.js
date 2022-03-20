@@ -119,7 +119,7 @@ function prev(dato){
 
 function fillDatalist(dato){
     var out="";
-    switch(lang){
+    /*switch(lang){
         case "en":
             for(var index=0;index<dato.weapons.length;index++){
                 out+="<option value=\""+dato.weapons[index].name.en+"\"/>";
@@ -133,6 +133,9 @@ function fillDatalist(dato){
                 out+="<option value=\""+dato.weapons[index].name.es+"\"/>";
             }
             break;
+    }*/
+    for(var index=0;index<dato.weapons.length;index++){
+        out+="<option value=\""+dato.weapons[index].name.es+"\"/>";
     }
     $("#weaponslist").html(out);
 }//fillDatalist
