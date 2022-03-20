@@ -32,6 +32,8 @@
                     }
                 })
 
+                fillDatalist(dato);
+
                 $("#prev").click(function(){
                     prev(dato);
                 });
@@ -60,7 +62,9 @@
                 <button id="en">&#127468;&#127463;</button>
             </div>
             <div class="search">
-                <input type="text" name="searchtext" id="searchtext">
+                <input list="weaponslist" name="searchlist" id="searchlist">
+                <datalist id="weaponslist">
+                </datalist>
                 <button id="searchbutton">&#128269;</button>
             </div>
         </div>

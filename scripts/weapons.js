@@ -117,14 +117,36 @@ function prev(dato){
     }
 }//prev
 
+function fillDatalist(dato){
+    var out="";
+    switch(lang){
+        case "en":
+            for(var index=0;index<dato.weapons.length;index++){
+                out+="<option value=\""+dato.weapons[index].name.en+"\"/>";
+            }
+            break;
+
+        default:
+
+        case "es":
+            for(var index=0;index<dato.weapons.length;index++){
+                out+="<option value=\""+dato.weapons[index].name.es+"\"/>";
+            }
+            break;
+    }
+    $("#weaponslist").html(out);
+}//fillDatalist
+
 function changeToES(dato){
     lang="es";
     createResult(dato);
     $("title").text("Armas");
+    fillDatalist(dato);
 }//changeToES
 
 function changeToEN(dato){
     lang="en";
     createResult(dato);
     $("title").text("Weapons");
+    fillDatalist(dato);
 }//changeToEN
