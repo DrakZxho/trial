@@ -16,7 +16,7 @@
             "res":0,
             "dex":0,
             "lck":0,
-            "vit":0,
+            "vit":1,
             "spr":0
         },
         "properties":{
@@ -44,12 +44,12 @@
             "en":"Small dagger with a chance to poison the objetive."
         },
         "attributes":{
-            "str":1,
+            "str":2,
             "def":0,
-            "mag":1,
+            "mag":0,
             "res":0,
             "dex":1,
-            "lck":0,
+            "lck":1,
             "vit":0,
             "spr":0
         },
@@ -85,7 +85,7 @@
             "dex":0,
             "lck":0,
             "vit":0,
-            "spr":0
+            "spr":1
         },
         "properties":{
             "es":[
@@ -116,7 +116,7 @@
             "def":0,
             "mag":0,
             "res":0,
-            "dex":2,
+            "dex":3,
             "lck":0,
             "vit":0,
             "spr":0
