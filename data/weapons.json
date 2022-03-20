@@ -168,5 +168,39 @@
             ]
         },
         "type":"sword"
+    },
+    {
+        "id":"w4",
+        "name": {
+            "es":"Cuchillo de cocina",
+            "en":"Kitchen knife"
+        },
+        "description":{
+            "es":"Es un cuchillo de cocina, creo que no deberías usarlo así.",
+            "en":"It's a kitchen knife, I think you shouldn't use it like that."
+        },
+        "attributes":{
+            "str":2,
+            "def":0,
+            "mag":0,
+            "res":0,
+            "dex":2,
+            "lck":2,
+            "vit":0,
+            "spr":0
+        },
+        "properties":{
+            "es":[
+                "Obtiene un 20% de probabilidad adicional para obtener recompensas.",
+                null,
+                null
+            ],
+            "en":[
+                "Gain an additional 20% chance to get drops.",
+                null,
+                null
+            ]
+        },
+        "type":"dagger"
     }
 ]}
