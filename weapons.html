@@ -28,6 +28,7 @@
                     success: function(data) {
                         console.log(data);
                         createResult(data);
+                        fillDatalist(data);
                         dato=data;
                     }
                 })
@@ -48,8 +49,6 @@
                         changeToEN(dato);
                     }
                 });
-
-                const datalistTimeOut=setTimeout(fillDatalist, 3000, dato);
 
             });
 
