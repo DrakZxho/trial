@@ -78,7 +78,7 @@ function createResult(dato){
     }
 
     var out="<table><tr>";
-    out+="<td style='width: 64px;'><img id='typeIcon' src='https://drakzxho.github.io/trial/graphics/weapon-type/"+type+".svg' alt='"+type+" icon' width='64' height='64'></td>";
+    out+="<td style='width: 69px;'><img id='typeIcon' src='https://drakzxho.github.io/trial/graphics/weapon-type/"+type+".svg' alt='"+type+" icon' width='64' height='64'></td>";
     out+="<td><h1 id='name'>"+name+"</h1></td>";
     out+="</tr><tr>";
     out+="<td colspan=\"2\"><h3id='description'>"+desc+"</h3id=></td>";
