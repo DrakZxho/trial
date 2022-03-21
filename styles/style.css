@@ -9,11 +9,19 @@ html{
     margin : auto auto auto auto;
     border-radius: 4px;
 }
+.nav{
+    width: fit-content;
+    float: left;
+    background-color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
 .buttons{
     width: fit-content;
     margin : 5px auto 5px auto;
 }
 .search{
+    width: fit-content;
     float: right;
     background-color: white;
     padding: 3px;
