@@ -1,6 +1,6 @@
 "weapons":[{
     "id":,
-    "name": {
+    "name":{
         "es":,
         "en":
     },

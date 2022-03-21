@@ -1,7 +1,7 @@
 {"weapons":[
     {
         "id":"w0",
-        "name": {
+        "name":{
             "es":"Espada desgastada",
             "en":"Worn out sword"
         },
@@ -35,7 +35,7 @@
     },
     {
         "id":"w1",
-        "name": {
+        "name":{
             "es":"Aguja venenosa",
             "en":"Poisonous needle"
         },
@@ -69,7 +69,7 @@
     },
     {
         "id":"w2",
-        "name": {
+        "name":{
             "es":"Báculo roto",
             "en":"Broken staff"
         },
@@ -103,7 +103,7 @@
     },
     {
         "id":"w3",
-        "name": {
+        "name":{
             "es":"Arco corto",
             "en":"Short bow"
         },
@@ -137,7 +137,7 @@
     },
     {
         "id":"w4",
-        "name": {
+        "name":{
             "es":"Espada de soldado",
             "en":"Soldier sword"
         },
@@ -171,7 +171,7 @@
     },
     {
         "id":"w5",
-        "name": {
+        "name":{
             "es":"Cuchillo de cocina",
             "en":"Kitchen knife"
         },
@@ -202,5 +202,39 @@
             ]
         },
         "type":"dagger"
+    },
+    {
+        "id":"w6",
+        "name":{
+            "es":"Arco de soldado",
+            "en":"Soldier bow"
+        },
+        "description":{
+            "es":"Arco regularmente usado por soldados.",
+            "en":"Bow regularly used by soldiers."
+        },
+        "attributes":{
+            "str":2,
+            "def":0,
+            "mag":0,
+            "res":0,
+            "dex":4,
+            "lck":0,
+            "vit":0,
+            "spr":0
+        },
+        "properties":{
+            "es":[
+                "Obtiene un 5% de probabilidad adicional de atacar 2 veces.",
+                null,
+                null
+            ],
+            "en":[
+                "Gain an additional 5% chance to attack twice.",
+                null,
+                null
+            ]
+        },
+        "type":"bow"
     }
 ]}
