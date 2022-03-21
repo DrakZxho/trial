@@ -1,12 +1,12 @@
 "weapons":[{
-    "id":,
+    "id":"",
     "name":{
-        "es":,
-        "en":
+        "es":"",
+        "en":""
     },
     "description":{
-        "es":,
-        "en":
+        "es":"",
+        "en":""
     },
     "attributes":{
         "str":,
@@ -20,15 +20,15 @@
     },
     "properties":{
         "es":[
-            ,
-            ,
-
+            null,
+            null,
+            null
         ],
         "en":[
-            ,
-            ,
-            
+            null,
+            null,
+            null   
         ]
     },
-    "type":
+    "type":""
 }]
