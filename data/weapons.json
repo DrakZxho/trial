@@ -236,5 +236,39 @@
             ]
         },
         "type":"bow"
+    },
+    {
+        "id":"w7",
+        "name":{
+            "es":"Vara de alma",
+            "en":"Soul rod"
+        },
+        "description":{
+            "es":"Extraña vara usada en rituales desconocidos.",
+            "en":"Strange rod used in unknown rituals."
+        },
+        "attributes":{
+            "str":0,
+            "def":0,
+            "mag":4,
+            "res":0,
+            "dex":0,
+            "lck":0,
+            "vit":0,
+            "spr":2
+        },
+        "properties":{
+            "es":[
+                "Obtiene un 25% de probabilidad adicional de recuperar espíritu equivalente a la mitad del daño infligido.",
+                null,
+                null
+            ],
+            "en":[
+                "Gain an additional 25% chance to restore spirit equal to half the damage dealt.",
+                null,
+                null
+            ]
+        },
+        "type":"staff"
     }
 ]}
