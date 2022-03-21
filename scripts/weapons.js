@@ -106,19 +106,19 @@ function keypressed(e){
 function next(dato){
     if(i<dato.weapons.length-1){
         i=i+1;
-        createResult(dato);
     }else{
         i=0;
     }
+    createResult(dato);
 }//next
 
 function prev(dato){
     if(i>0){
         i=i-1;
-        createResult(dato);
     }else{
         i=dato.weapons.length-1;
     }
+    createResult(dato);
 }//prev
 
 function fillDatalist(dato){
