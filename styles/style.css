@@ -2,7 +2,7 @@ html{
     background-color: rgb(70, 4, 61);
 }
 .pag{  
-    width: 600px;
+    width: 800px;
     height: fit-content;
     background-color: white;
     padding: 5px;
@@ -37,7 +37,7 @@ html{
 }
 #chart{
     margin : 5px auto 5px auto;
-    height: 300px;
+    height: 400px;
 }
 #legend{
     position: relative;
