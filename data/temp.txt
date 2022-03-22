@@ -1,34 +1,93 @@
-"weapons":[{
-    "id":"",
-    "name":{
-        "es":"",
-        "en":""
-    },
-    "description":{
-        "es":"",
-        "en":""
-    },
-    "attributes":{
-        "str":,
-        "def":,
-        "mag":,
-        "res":,
-        "dex":,
-        "lck":,
-        "vit":,
-        "spr":
-    },
-    "properties":{
-        "es":[
-            null,
-            null,
-            null
-        ],
-        "en":[
-            null,
-            null,
-            null   
-        ]
-    },
-    "type":""
-}]
+arma
+
+{"weapons":[
+    {
+        "id":"",
+        "name":{
+            "es":"",
+            "en":""
+        },
+        "description":{
+            "es":"",
+            "en":""
+        },
+        "attributes":{
+            "str":,
+            "def":,
+            "mag":,
+            "res":,
+            "dex":,
+            "lck":,
+            "vit":,
+            "spr":
+        },
+        "properties":{
+            "es":[
+                null,
+                null,
+                null
+            ],
+            "en":[
+                null,
+                null,
+                null   
+            ]
+        },
+        "type":""
+    }
+]}
+
+enemigo
+
+{"foes":[
+    {
+        "id":"",
+        "name":{
+            "es":"",
+            "en":""
+        },
+        "description":{
+            "es":"",
+            "en":""
+        },
+        "max_attributes":{
+            "str":,
+            "def":,
+            "mag":,
+            "res":,
+            "dex":,
+            "lck":,
+            "vit":,
+            "spr":
+        },
+        "min_attributes":{
+            "str":,
+            "def":,
+            "mag":,
+            "res":,
+            "dex":,
+            "lck":,
+            "vit":,
+            "spr":
+        },
+        "drop":"",
+        "dropchance":,
+        "type":""
+    }
+]}
+
+material
+
+{"materials":[
+    {
+        "id":"",
+        "name":{
+            "es":"",
+            "en":""
+        },
+        "description":{
+            "es":"",
+            "en":""
+        }
+    }
+]}

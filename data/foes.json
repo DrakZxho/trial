@@ -1,0 +1,36 @@
+{"foes":[
+    {
+        "id":"f0",
+        "name":{
+            "es":"limo bebé",
+            "en":"baby slime"
+        },
+        "description":{
+            "es":"Una cría inofensiva de un limo.",
+            "en":"An harmless calf of a slime."
+        },
+        "max_attributes":{
+            "str":1,
+            "def":0,
+            "mag":1,
+            "res":1,
+            "dex":0,
+            "lck":0,
+            "vit":3,
+            "spr":2
+        },
+        "min_attributes":{
+            "str":3,
+            "def":1,
+            "mag":3,
+            "res":2,
+            "dex":1,
+            "lck":1,
+            "vit":7,
+            "spr":4
+        },
+        "drop":"m0",
+        "dropchance":7,
+        "type":"slime"
+    }
+]}
