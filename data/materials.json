@@ -8,6 +8,7 @@
         "description":{
             "es":"Una pequeña pizca de viscosidad en la palma de tu mano.",
             "en":"A small pinch of stickiness in the palm of your hand."
-        }
+        },
+        "type":"fluid"
     }
 ]}
