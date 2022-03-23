@@ -100,9 +100,9 @@ function arrowMove(e){
     }else if(e.key=="ArrowRight"){
         nextWeapon(dato);
     }else if(e.key=="ArrowUp"){
-        document.domain="https://drakzxho.github.io/trial/pages/index.html";
+        window.location.replace("https://drakzxho.github.io/trial/pages/index.html");
     }else if(e.key=="ArrowDown"){
-        document.domain="https://drakzxho.github.io/trial/pages/foes.html";
+        window.location.replace("https://drakzxho.github.io/trial/pages/foes.html");
     }
 }//arrowMove
 
