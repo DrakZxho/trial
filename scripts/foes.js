@@ -69,7 +69,7 @@ function createFoeChart(dato){
                 yName: "y",
                 name: "min",
                 drawType: 'Area',
-                fill: '#04b9bf',
+                fill: '#bf3f5b',
             }
         ],
     });
