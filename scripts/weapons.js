@@ -9,8 +9,6 @@ function createChart(dato){
 
     $("#chart").html("");
 
-    var sel = dato.weapons[i].attributes;
-
     switch(lang){
         case "en":
             atrLN=atrEN;
@@ -22,6 +20,8 @@ function createChart(dato){
                 atrLN=atrES;
                 break;                  
     }
+    
+    var sel = dato.weapons[i].attributes;
 
     var chart = new ej.charts.Chart({
         //Initializing Primary X Axis
