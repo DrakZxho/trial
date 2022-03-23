@@ -30,11 +30,11 @@ html{
     padding: 3px;
     border-radius: 3px;
 }
-#name{
+.name{
     display: inline-block;
     font-family: 'Arial';
 }
-#property{
+.property{
     display: list-item;
     list-style: none;
 }
