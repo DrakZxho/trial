@@ -7,10 +7,31 @@
     <link rel="icon" type="image/x-icon" href="https://drakzxho.github.io/trial/graphics/icons/foe.svg">
   </head>
   <body>
-    <div class="nav">
-      <a href="https://drakzxho.github.io/trial/pages/"><button><img src="https://drakzxho.github.io/trial/graphics/icons/home.svg" alt="home-icon" width="16px"></button></a>
-      <a href="https://drakzxho.github.io/trial/pages/weapons.html"><button><img src="https://drakzxho.github.io/trial/graphics/icons/weapon.svg" alt="weapon-icon" width="16px"></button></a>
-      <a href="https://drakzxho.github.io/trial/pages/foes.html"><button><img src="https://drakzxho.github.io/trial/graphics/icons/foe.svg" alt="foe-icon" width="16px"></button></a>
+    <div class="top">
+        <div class="nav">
+            <a href="https://drakzxho.github.io/trial/pages/"><button><img src="https://drakzxho.github.io/trial/graphics/icons/home.svg" alt="home-icon" width="16px"></button></a>
+            <a href="https://drakzxho.github.io/trial/pages/weapons.html"><button><img src="https://drakzxho.github.io/trial/graphics/icons/weapon.svg" alt="weapon-icon" width="16px"></button></a>
+            <a href="https://drakzxho.github.io/trial/pages/foes.html"><button><img src="https://drakzxho.github.io/trial/graphics/icons/foe.svg" alt="foe-icon" width="16px"></button></a>
+        </div>
+        <div class="search">
+            <input list="foeslist" name="searchlist" id="searchlist">
+            <datalist id="foeslist">
+            </datalist>
+            <button id="searchbutton"><img src="https://drakzxho.github.io/trial/graphics/icons/search.svg" alt="search-icon" width="16px"></button>
+        </div>
+        <div class="buttons">
+            <button id="es"><img src="https://drakzxho.github.io/trial/graphics/lang/es.svg" alt="es-flag" width="16px"></button>
+            <button id="en"><img src="https://drakzxho.github.io/trial/graphics/lang/en.svg" alt="en-flag" width="16px"></button>
+        </div>
     </div>
+    <div class="pag">
+        <div id="result"></div>
+        <div id="chart"></div>
+        <i id="legend"></i>
+    </div> 
+    <div class="buttons">
+        <button id="prev"><img src="https://drakzxho.github.io/trial/graphics/icons/left.svg" alt="left-icon" width="16px"></button>
+        <button id="next"><img src="https://drakzxho.github.io/trial/graphics/icons/right.svg" alt="right-icon" width="16px"></button> 
+    </div>  
   </body>
 </html>
