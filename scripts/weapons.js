@@ -97,9 +97,12 @@ function createWeaponResult(dato){
 function arrowMove(e){
     if(e.key=="ArrowLeft"){
         prevWeapon(dato);
-    }
-    if(e.key=="ArrowRight"){
+    }else if(e.key=="ArrowRight"){
         nextWeapon(dato);
+    }else if(e.key=="ArrowUp"){
+        document.domain="https://drakzxho.github.io/trial/pages/index.html";
+    }else if(e.key=="ArrowDown"){
+        document.domain="https://drakzxho.github.io/trial/pages/foes.html";
     }
 }//arrowMove
 
