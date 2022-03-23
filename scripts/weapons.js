@@ -7,11 +7,11 @@ function createWeaponChart(dato){
             atrLN=atrEN;
             break;
 
-            default:
+        default:
         
-            case "es":  
-                atrLN=atrES;
-                break;                  
+        case "es":  
+            atrLN=atrES;
+            break;                  
     }
     
     var sel = dato.weapons[i].attributes;
@@ -124,7 +124,7 @@ function prevWeapon(dato){
     createWeaponResult(dato);
 }//prevWeapon
 
-function fillDatalist(dato){
+function fillWeaponDatalist(dato){
     var out="";
     switch(lang){
         case "en":
@@ -142,20 +142,20 @@ function fillDatalist(dato){
             break;
     }
     $("#weaponslist").html(out);
-}//fillDatalist
+}//fillWeaponDatalist
 
 function changeToES(dato){
     lang="es";
     createWeaponResult(dato);
     $("title").text("Armas");
-    fillDatalist(dato);
+    fillWeaponDatalist(dato);
 }//changeToES
 
 function changeToEN(dato){
     lang="en";
     createWeaponResult(dato);
     $("title").text("Weapons");
-    fillDatalist(dato);
+    fillWeaponDatalist(dato);
 }//changeToEN
 
 function searchWeapon(term) {

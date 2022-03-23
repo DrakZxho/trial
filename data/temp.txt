@@ -50,7 +50,7 @@ enemigo
             "es":"",
             "en":""
         },
-        "max_attributes":{
+        "maxattributes":{
             "str":,
             "def":,
             "mag":,
@@ -60,7 +60,7 @@ enemigo
             "vit":,
             "spr":
         },
-        "min_attributes":{
+        "minattributes":{
             "str":,
             "def":,
             "mag":,

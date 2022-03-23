@@ -9,7 +9,7 @@
             "es":"Una cría inofensiva de un limo.",
             "en":"An harmless calf of a slime."
         },
-        "max_attributes":{
+        "maxattributes":{
             "str":1,
             "def":0,
             "mag":1,
@@ -19,7 +19,7 @@
             "vit":3,
             "spr":2
         },
-        "min_attributes":{
+        "minattributes":{
             "str":3,
             "def":1,
             "mag":3,
