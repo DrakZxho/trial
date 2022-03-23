@@ -20,17 +20,17 @@
                     },
                     success: function(data) {
                         console.log(data);
-                        createResult(data);
+                        createWeaponResult(data);
                         fillDatalist(data);
                         dato=data;
                     }
                 })
 
                 $("#prev").click(function(){
-                    prev(dato);
+                    prevWeapon(dato);
                 });
                 $("#next").click(function(){
-                    next(dato);
+                    nextWeapon(dato);
                 });
                 $("#es").click(function(){
                     if(lang!="es"){
@@ -55,7 +55,7 @@
 
         </script>
     </head>
-    <body onkeydown="keypressed(event);">
+    <body onkeydown="arrowMove(event);">
         <div class="top">
             <div class="nav">
                 <a href="https://drakzxho.github.io/trial/pages/"><button><img src="https://drakzxho.github.io/trial/graphics/icons/home.svg" alt="home-icon" width="16px"></button></a>

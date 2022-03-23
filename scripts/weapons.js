@@ -5,7 +5,7 @@ var atrEN=new Array("VIT", "STR", "DEF", "DEX", "SPR", "LCK", "RES", "MAG");
 var atrES=new Array("VIT", "FUE", "DEF", "DES", "ESP", "SUE", "RES", "MAG");
 var atrLN;
 
-function createChart(dato){
+function createWeaponChart(dato){
 
     $("#chart").html("");
 
@@ -60,9 +60,9 @@ function createChart(dato){
         ],
     });
     chart.appendTo("#chart");
-}//createChart
+}//createWeaponChart
 
-function createResult(dato){
+function createWeaponResult(dato){
     var sel = dato.weapons[i];
     var type = sel.type;
     switch(lang){
@@ -98,35 +98,35 @@ function createResult(dato){
 
     $("#result").html(out);
 
-    createChart(dato);
-}//createResult
+    createWeaponChart(dato);
+}//createWeaponResult
 
-function keypressed(e){
+function arrowMove(e){
     if(e.key=="ArrowLeft"){
-        prev(dato);
+        prevWeapon(dato);
     }
     if(e.key=="ArrowRight"){
-        next(dato);
+        nextWeapon(dato);
     }
-}//keypressed
+}//arrowMove
 
-function next(dato){
+function nextWeapon(dato){
     if(i<dato.weapons.length-1){
         i=i+1;
     }else{
         i=0;
     }
-    createResult(dato);
-}//next
+    createWeaponResult(dato);
+}//nextWeapon
 
-function prev(dato){
+function prevWeapon(dato){
     if(i>0){
         i=i-1;
     }else{
         i=dato.weapons.length-1;
     }
-    createResult(dato);
-}//prev
+    createWeaponResult(dato);
+}//prevWeapon
 
 function fillDatalist(dato){
     var out="";
@@ -150,14 +150,14 @@ function fillDatalist(dato){
 
 function changeToES(dato){
     lang="es";
-    createResult(dato);
+    createWeaponResult(dato);
     $("title").text("Armas");
     fillDatalist(dato);
 }//changeToES
 
 function changeToEN(dato){
     lang="en";
-    createResult(dato);
+    createWeaponResult(dato);
     $("title").text("Weapons");
     fillDatalist(dato);
 }//changeToEN
@@ -194,7 +194,7 @@ function searchWeapon(term) {
 
     if(match){
         i=pos;
-        createResult(dato);
+        createWeaponResult(dato);
     }else{
         alert(msgerr);
     }
