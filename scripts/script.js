@@ -13,7 +13,7 @@ function pageUp(){
 }
 
 function pageDown(){
-    if(page=pages.length-1){
-        window.location.replace(pages[0]);
-    }else window.location.replace(pages[page+1]);
+    if(page<pages.length-1){
+        window.location.replace(pages[page+1]);
+    }else window.location.replace(pages[0]);
 }
