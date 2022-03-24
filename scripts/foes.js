@@ -117,7 +117,7 @@ function arrowMove(e){
     }else if(e.key=="ArrowUp"){
         pageUp();
     }else if(e.key=="ArrowDown"){
-        pageUp();
+        pageDown();
     }
 }//arrowMove
 

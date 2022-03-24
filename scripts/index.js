@@ -4,6 +4,6 @@ function arrowMove(e){
     if(e.key=="ArrowUp"){
         pageUp();
     }else if(e.key=="ArrowDown"){
-        pageUp();
+        pageDown();
     }
 }//arrowMove
