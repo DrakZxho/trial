@@ -1,3 +1,5 @@
+var page=1;
+
 function createWeaponChart(dato){
 
     $("#chart").html("");
@@ -100,9 +102,9 @@ function arrowMove(e){
     }else if(e.key=="ArrowRight"){
         nextWeapon(dato);
     }else if(e.key=="ArrowUp"){
-        window.location.replace("https://drakzxho.github.io/trial/pages/index.html");
+        pageUp();
     }else if(e.key=="ArrowDown"){
-        window.location.replace("https://drakzxho.github.io/trial/pages/foes.html");
+        pageUp();
     }
 }//arrowMove
 

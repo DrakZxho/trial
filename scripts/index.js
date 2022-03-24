@@ -1,7 +1,9 @@
+var page=0;
+
 function arrowMove(e){
     if(e.key=="ArrowUp"){
-        window.location.replace("https://drakzxho.github.io/trial/pages/foes.html");
+        pageUp();
     }else if(e.key=="ArrowDown"){
-        window.location.replace("https://drakzxho.github.io/trial/pages/weapons.html");
+        pageUp();
     }
 }//arrowMove
