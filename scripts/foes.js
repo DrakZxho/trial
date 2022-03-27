@@ -19,6 +19,9 @@ function createFoeChart(dato){
     var max = dato.foes[i].maxattributes;
     var min = dato.foes[i].minattributes;
 
+    var maxatr = Math.max(max.vit, max.str, max.def, max.dex, max.spr, max.lck, max.res, max.mag);
+    var limit=maxatr+(10-maxatr%10);
+
     var chart = new ej.charts.Chart({
         //Initializing Primary X Axis
         primaryXAxis: {
@@ -29,8 +32,8 @@ function createFoeChart(dato){
         //Initializing Primary Y Axis
         primaryYAxis: {
             minimum: -0.3,
-            maximum: 10,
-            interval: 10,
+            maximum: limit,
+            interval: limit+3,
             edgeLabelPlacement: "Shift",
         },
         //Initializing Chart Series
