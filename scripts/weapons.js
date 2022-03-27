@@ -28,7 +28,7 @@ function createWeaponChart(dato){
         //Initializing Primary Y Axis
         primaryYAxis: {
             minimum: -0.3,
-            maximum: 10,
+            maximum: 25,
             interval: 13,
             edgeLabelPlacement: "Shift",
         },
