@@ -29,8 +29,8 @@ function createFoeChart(dato){
         //Initializing Primary Y Axis
         primaryYAxis: {
             minimum: -0.3,
-            maximum: 50,
-            interval: 13,
+            maximum: 10,
+            interval: 10,
             edgeLabelPlacement: "Shift",
         },
         //Initializing Chart Series

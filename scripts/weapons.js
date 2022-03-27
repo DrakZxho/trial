@@ -18,6 +18,9 @@ function createWeaponChart(dato){
     
     var sel = dato.weapons[i].attributes;
 
+    const maxatr = Math.max.apply(null, sel);
+    console.log(maxatr);
+
     var chart = new ej.charts.Chart({
         //Initializing Primary X Axis
         primaryXAxis: {
@@ -28,8 +31,8 @@ function createWeaponChart(dato){
         //Initializing Primary Y Axis
         primaryYAxis: {
             minimum: -0.3,
-            maximum: 25,
-            interval: 13,
+            maximum: 10,
+            interval: 10,
             edgeLabelPlacement: "Shift",
         },
         //Initializing Chart Series
