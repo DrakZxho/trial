@@ -10,5 +10,29 @@
             "en":"A small pinch of stickiness in the palm of your hand."
         },
         "type":"fluid"
+    },
+    {
+        "id":"m1",
+        "name":{
+            "es":"hoja pequeña",
+            "en":"small leaf"
+        },
+        "description":{
+            "es":"Una hoja con propiedades curativas.",
+            "en":"A leaf with healing properties."
+        },
+        "type":"vegetable"
+    },
+    {
+        "id":"m2",
+        "name":{
+            "es":"corona limosa",
+            "en":"slimy crown"
+        },
+        "description":{
+            "es":"Una corona pegajosa.",
+            "en":"An sticky crown."
+        },
+        "type":"treasure"
     }
 ]}

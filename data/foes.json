@@ -66,5 +66,73 @@
         "drop":"m0",
         "dropchance":9,
         "type":"slime"
+    },
+    {
+        "id":"f2",
+        "name":{
+            "es":"Arbustino",
+            "en":"Bushie"
+        },
+        "description":{
+            "es":"Quizás sus hojas tengan un uso.",
+            "en":"Perhaps its leaves have a use."
+        },
+        "minattributes":{
+            "str":1,
+            "def":1,
+            "mag":1,
+            "res":1,
+            "dex":0,
+            "lck":0,
+            "vit":4,
+            "spr":1
+        },
+        "maxattributes":{
+            "str":5,
+            "def":3,
+            "mag":2,
+            "res":3,
+            "dex":0,
+            "lck":2,
+            "vit":6,
+            "spr":2
+        },
+        "drop":"m1",
+        "dropchance":7,
+        "type":"plant"
+    },
+    {
+        "id":"f0",
+        "name":{
+            "es":"Rey Limo",
+            "en":"Slime King"
+        },
+        "description":{
+            "es":"Un limo noble y fuerte.",
+            "en":"A noble and strong slime."
+        },
+        "minattributes":{
+            "str":7,
+            "def":4,
+            "mag":5,
+            "res":3,
+            "dex":1,
+            "lck":0,
+            "vit":11,
+            "spr":7
+        },
+        "maxattributes":{
+            "str":12,
+            "def":8,
+            "mag":14,
+            "res":8,
+            "dex":3,
+            "lck":2,
+            "vit":17,
+            "spr":11
+        },
+        "drop":"m2",
+        "dropchance":4,
+        "type":"slime"
     }
 ]}
