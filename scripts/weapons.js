@@ -18,7 +18,7 @@ function createWeaponChart(dato){
     
     var sel = dato.weapons[i].attributes;
 
-    const maxatr = Math.max.apply(null, sel);
+    const maxatr = Math.max(sel.vit, sel.str, sel.def, sel.dex, sel.spr, sel.lck, sel.res, sel.mag);
     console.log(maxatr);
 
     var chart = new ej.charts.Chart({
