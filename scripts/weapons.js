@@ -19,7 +19,7 @@ function createWeaponChart(dato){
     var sel = dato.weapons[i].attributes;
 
     const maxatr = Math.max(sel.vit, sel.str, sel.def, sel.dex, sel.spr, sel.lck, sel.res, sel.mag);
-    console.log(maxatr);
+    console.log(maxatr+(10-maxatr%10));
 
     var chart = new ej.charts.Chart({
         //Initializing Primary X Axis
